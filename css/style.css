@@ -1,0 +1,567 @@
+.navbar1 {
+
+  list-style: none;
+
+
+
+  
+
+
+
+
+
+}
+
+
+.icon {
+
+  width: 50px ;
+  height: 50px;
+  background-color:#FE4426;
+  border-radius:50%;
+  font-size: 25px;
+  
+}
+
+
+.t {
+
+  padding-left: 13px;
+  padding-top: 13px;
+}
+
+.lead {
+  font-size: 13px;
+}
+
+.nav-link.active{
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.iconss {
+
+  font-size: 20px;
+
+
+
+
+}
+
+
+.iconss img {
+
+  width: 40px;
+  height: 40px;
+  border: 1px solid orange;
+  border-radius: 50%;
+  
+
+}
+
+.iconss .fa-bookmark:hover {
+  
+  color: #ff7a00;
+}
+.iconss .fa-clock-rotate-left:hover,
+.iconss .fa-rotate-left:hover {
+   color: #ff7a00;
+
+}
+.iconss .fa-gear:hover,
+.iconss .fa-cog:hover {
+    color: #ff7a00;
+
+}
+
+
+.second {
+  width: 100%;
+  height: auto;
+
+  background-color: #FFFCEB;
+
+
+
+}
+
+
+.second2 {
+
+   width: 80%;
+
+    background-color: white;
+   border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+ 
+
+
+
+
+
+}
+
+.row img {
+ 
+  width: 100%;
+  height: 770px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+ 
+
+
+  
+}
+
+
+.row > [class*="col-"] {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+.rating-badge {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background: white;
+    padding: 8px 14px;
+    border-radius: 18px;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+.rating-badge span {
+    font-weight: normal;
+    color: #666;
+}
+
+
+.info-box {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    width: 35%;
+    background: white;
+    
+    border-radius: 18px;
+    display: flex;
+    gap: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.info-box div {
+    text-align: center;
+    font-size: 14px;
+    color: #444;
+}
+.info-box i {
+    font-size: 20px;
+    color: #ff8b00;
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.info-box strong {
+    font-size: 15px;
+    color: #000;
+}
+
+
+
+
+body {
+  background: #f5f5f5;
+  font-family: sans-serif;
+}
+
+.recipe-card {
+  
+
+  padding: 25px;
+ 
+  position: relative;
+  box-shadow: 0 0 15px rgba(0,0,0,0.08);
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.green {
+  background: #e3f7df;
+  color: #5c9d4c;
+}
+
+.blue {
+  background: #e1ecff;
+  color: #3c6dd8;
+}
+
+/* Title */
+.title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 5px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Warning Box */
+.warning-box {
+  background: #ffeaea;
+  border-left: 6px solid #ff6b6b;
+  padding: 25px;
+  margin-top: 25px;
+  display: flex;
+  gap: 12px;
+  border-radius: 12px;
+ 
+}
+
+.warning-box h4 {
+  margin: 0;
+
+}
+
+
+
+.warning-box p {
+  margin: 5px 0 0;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Buttons top-right */
+.actions {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.icon-btn {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 12px;
+  background: #ffe7c4;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fa-solid.fa-bookmark {
+  color: #F54A00;
+}
+
+
+.fa-solid.fa-share-nodes{
+ 
+  color: #F54A00;
+
+}
+
+.icoon{
+
+  font-size: 25px;
+}
+
+
+
+
+
+
+.custom-tabs .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 300;
+  color: #777;
+  border: none;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  margin-left: 22px;
+}
+
+.custom-tabs .nav-link.active {
+  color: #d14d3a !important;
+  background: transparent !important;
+  border: none;
+  border-bottom: 3px solid #d14d3a !important;
+  border-radius: 0;
+}
+
+.tab-pane.fade.show.active {
+
+      margin-top: 25px;
+  background: #fdf7ee;
+  padding: 50px;
+  border-radius: 15px;
+  background: #fdf7ee;
+  padding-top: 15px;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+   
+
+}
+
+
+
+/* Ingredients Box */
+
+
+.ingredients-box ul {
+
+}
+
+.ingredients-box li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 17px;
+  color: #444;
+}
+
+.number {
+  width: 26px;
+  height: 26px;
+  background: #d14d3a;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+/* Scrollbar Container */
+
+
+.container {
+  max-height: 750px;
+  overflow-y: auto;
+}
+
+
+.container::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+.container::-webkit-scrollbar-thumb {
+  background: #e5bdbd;
+  border-radius: 5px;
+}
+
+
+.tab-pane.fade.show.active {
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+
+.tab-pane.fade.show.active::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+.tab-pane.fade.show.active::-webkit-scrollbar-thumb {
+  background: #e5bdbd;
+  border-radius: 5px;
+}
+
+
+
+.try-btn {
+  margin-top: 40px;
+  background: linear-gradient(90deg, #e64530, #f05a41);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 10px rgba(240, 90, 65, 0.4);
+  transition: 0.2s;
+  position: relative;
+}
+
+
+
+
+.try-btn i {
+  font-size: 18px;
+}
+
+.try-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(240, 90, 65, 0.5);
+}
+
+.try-btn:active {
+  transform: scale(0.96);
+}
+
+
+.try-btn::before {
+ 
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 2px;
+  background-color: #eae4e4;
+  top: -30px;
+  left: 10px;
+
+
+}
+
+
+.steps {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.num {
+  width: 36px;
+  height: 36px;
+  background: #d3542a; 
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.step p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+}
+
+
+.nutrition-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  max-width: 650px;
+}
+
+.nutri {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+
+.calories { background: #ffe3bf; color: #d3542a; }
+.protein  { background: #e0e8ff; color: #6f88ff; }
+.carbs    { background: #f5efcb; color: #c7a746; }
+.fat      { background: #ffe2e2; color: #d06b6b; }
+.fiber    { background: #e3f7e7; color: #57a86b; }
+.sodium   { background: #f7d6ee; color: #c67bb3; }
+
+.label {
+  font-size: 15px;
+  color: #444;
+  flex: 1;
+}
+
+.value {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+
+
+.tips {
+  max-width: 650px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tip {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 0;
+  position: relative;
+}
+
+.line {
+  width: 3px;
+  height: 40px;
+  background: #f2c46d; 
+  border-radius: 10px;
+}
+
+.circle {
+  width: 34px;
+  height: 34px;
+  background: #ffe9cc;     
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #d28a3a;          
+  font-size: 16px;
+}
+
+.tip p {
+  margin: 0;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.4;
+}
